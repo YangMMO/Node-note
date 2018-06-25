@@ -9,7 +9,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/P2/2_async/resulte.js"
+      "program": "${workspaceFolder}/P3/4_async-await/async-await.js"
     }
   ],
 }
