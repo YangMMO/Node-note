@@ -9,7 +9,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/P4/GET&POST/index.js"
+      "program": "${workspaceFolder}/P5/1_child-process/1-spawn.js"
     }
   ],
 }

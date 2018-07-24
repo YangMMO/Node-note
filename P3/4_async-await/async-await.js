@@ -46,7 +46,6 @@ async function start () {
   } catch (err) {
     console.log('异常')
   }
-
 }
 
 
