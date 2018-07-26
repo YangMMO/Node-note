@@ -8,9 +8,12 @@ function fibonacci(n) {
   return n < 2 ? 1 : fibonacci(n-1) + fibonacci(n-2);
 }
 
-cp.fork(`${__dirname}/3-fork-child.js`);
+// cp.fork(`${__dirname}/3-fork-child.js`);
 
 let time1 = process.hrtime();
-console.log(`time1: ${time1}`);
 console.info('fibo45:' + fibonacci(45));
 console.info('fibo45耗时', process.hrtime(time1));
+
+let time2 = process.hrtime();
+console.info('fibo44:' + fibonacci(44));
+console.info('fibo44耗时', process.hrtime(time2));
