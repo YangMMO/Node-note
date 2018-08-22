@@ -1,0 +1,1 @@
+cat server.log | grep "yyyy-mm-dd" | grep 'GET' | awk '{print $6}' | sort | uniq -c | sort | head -n 5
